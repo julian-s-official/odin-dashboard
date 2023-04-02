@@ -6,8 +6,8 @@
 }
 
 * {
-	border-style: solid;
-	border-color: red;
+	/* border-style: solid;
+	border-color: red; */
 }
 
 body {
@@ -33,11 +33,17 @@ body {
 }
 
 .sidebar-logo {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
-.sidebar-navgiation {
+.sidebar-navigation {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(5, 30px);
+	grid-template-rows: repeat(7, 50px);
+}
+
+.sidebar-settings {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 50px);
 }
