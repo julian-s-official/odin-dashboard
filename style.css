@@ -1,6 +1,13 @@
 :root{
 	font-family: "Roboto", sans-serif;
 	font-size: 18px;
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+	border-style: solid;
+	border-color: red;
 }
 
 body {
@@ -11,12 +18,26 @@ body {
 
 .sidebar {
 	grid-area: 1 / 1 / 3 / 2;
+	display: flex;
+	flex-direction: column;
 }
 
 .navigation {
 	grid-area: 1 / 2 / 2 / 3;
+	display: grid;
 }
 
 .main-content{
 	grid-area: 2 / 2 / 3 / 3;
+	display: grid;
+}
+
+.sidebar-logo {
+	margin-bottom: 30px;
+}
+
+.sidebar-navgiation {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 30px);
 }
