@@ -33,6 +33,19 @@ body {
 	grid-template-rows: 1fr 1fr;
 }
 
+.navigation-cards {
+	background-color: #ffffff;
+	padding: 40px 20px;
+	border-left-width: 8px;
+	border-radius: 8px;
+	box-shadow: 1px 2px 2px 1px #a3a3a3;
+}
+
+.navigation-cards > div {
+	border-bottom: 1px solid #c0c0c0;
+	line-height: 30px;
+}
+
 .main-content {
 	grid-area: 2 / 2 / 3 / 3;
 	display: grid;
