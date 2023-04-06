@@ -26,6 +26,12 @@ body {
 	padding: 20px;
 }
 
+.sidebar-logo {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
 .navigation {
 	grid-area: 1 / 2 / 2 / 3;
 	display: grid;
